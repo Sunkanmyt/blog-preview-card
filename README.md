@@ -31,7 +31,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Sunkanmyt/blog-preview-card.git](https://github.com/Sunkanmyt/blog-preview-card.git)
-- Live Site URL: []()
+- Live Site URL: [https://sunkanmyt.github.io/blog-preview-card/](https://sunkanmyt.github.io/blog-preview-card/)
 
 ## My process
 
@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-The majot thing I learn was how to work with figma files in creating the web pages to look like the design. This project trained my attention to details and helped me strengthen my knowledge of pure CSS.
+The major thing I learned was how to work with Figma files in replicating the actual design. This project trained my attention to details and helped strengthen my knowledge of pure CSS.
 
 ## Author
 
@@ -53,4 +53,4 @@ The majot thing I learn was how to work with figma files in creating the web pag
 
 ## Acknowledgments
 
-A majority of the knowledge I used in completing this project are things I picked up by learning Web Development from "Traversy media" on YouTube.
+A large majority of the knowledge I used in completing this project are things I picked up while learning Web Development from "Traversy Media" on YouTube.
