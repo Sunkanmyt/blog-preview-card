@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+/* Variables */
+:root {
+  --main-yellow: hsl(47, 88%, 63%);
+  --dark-grey: hsl(0, 0%, 7%);
+  --light-grey: hsl(0, 0%, 42%);
+  --white: hsl(0, 0%, 100%);
+}
+
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  background-color: var(--main-yellow);
+  color: var(--dark-grey);
+  height: 100vh;
+}
+
+/* Main content */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Card */
+.card {
+  background-color: var(--white);
+  width: 384px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  box-shadow: 8px 8px 0px rgba(0, 0, 0, 1);
+  border: 1px solid var(--dark-grey);
+  border-radius: 20px;
+}
+.card .card-img {
+  height: 200px;
+  border-radius: 10px;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.75rem;
+}
+.card .category {
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  background-color: var(--main-yellow);
+}
+.card .category p {
+  font-size: 0.875rem;
+  font-weight: 800;
+  color: var(--dark-grey);
+  text-align: center;
+}
+.card .date {
+  font-size: 0.875rem;
+  color: var(--dark-grey);
+}
+.card .card-title {
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: color 0.3s ease;
+}
+.card .card-title:hover {
+  color: var(--main-yellow);
+  cursor: pointer;
+}
+.card .card-text {
+  color: var(--light-grey);
+}
+.card .author {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.card .author img {
+  width: 32px;
+  height: 32px;
+}
+.card .author p {
+  font-size: 0.875rem;
+  font-weight: 800;
+}
+
+/* Attribution Styles */
+.attribution {
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-50%);
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 1.25rem;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+/* Media queries */
+@media (max-width: 375px) {
+  .card {
+    width: 327px;
+  }
+  .card .category p {
+    font-size: 0.75rem;
+  }
+  .card .date {
+    font-size: 0.75rem;
+  }
+  .card .card-title {
+    font-size: 1.25rem;
+  }
+  .card .card-text {
+    font-size: 0.875rem;
+  }
+}
