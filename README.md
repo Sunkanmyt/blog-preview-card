@@ -48,8 +48,8 @@ The major thing I learned was how to work with Figma files in replicating the ac
 ## Author
 
 - GitHub - [@Sunkanmyt](https://github.com/Sunkanmyt)
-- Frontend Mentor - [@Sunkanmyt](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@Sunkanmyt](https://www.twitter.com/yourusername)
+- Frontend Mentor - [@Sunkanmyt](https://www.frontendmentor.io/profile/sunkanmyt)
+- Twitter - [@Sunkanmyt](https://www.twitter.com/sunkanmyt)
 
 ## Acknowledgments
 
